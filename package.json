@@ -1,0 +1,12 @@
+{
+  "name": "ncc-ts-allowjs",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "ncc build src/index.ts && node dist/index.js"
+  },
+  "dependencies": {
+    "@zeit/ncc": "^0.20.4",
+    "typescript": "^3.6.2"
+  }
+}
